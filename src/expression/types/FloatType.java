@@ -3,6 +3,11 @@ package expression.types;
 import expression.parser.Source;
 import expression.parser.SourceException;
 
+/**
+ * Float type
+ *
+ * @author <a href="https://teleg.run/borisshapa">Boris Shaposhnikov</a>
+ */
 public class FloatType implements Type<Float> {
     @Override
     public Float add(Float arg1, Float arg2) {

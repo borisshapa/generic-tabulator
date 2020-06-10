@@ -3,6 +3,11 @@ package expression.types;
 import expression.parser.Source;
 import expression.parser.SourceException;
 
+/**
+ * Double type
+ *
+ * @author <a href="https://teleg.run/borisshapa">Boris Shaposhnikov</a>
+ */
 public class DoubleType implements Type<Double> {
 
     @Override

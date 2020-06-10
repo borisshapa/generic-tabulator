@@ -4,6 +4,11 @@ import expression.exceptions.DivisionByZeroException;
 import expression.parser.Source;
 import expression.parser.SourceException;
 
+/**
+ * Integer type
+ *
+ * @author <a href="https://teleg.run/borisshapa">Boris Shaposhnikov</a>
+ */
 public class IntegerType implements Type<Integer> {
     @Override
     public Integer add(Integer arg1, Integer arg2) {

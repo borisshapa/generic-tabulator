@@ -5,6 +5,11 @@ import expression.exceptions.OverflowException;
 import expression.parser.Source;
 import expression.parser.SourceException;
 
+/**
+ * integer type with overflow check
+ *
+ * @author <a href="https://teleg.run/borisshapa">Boris Shaposhnikov</a>
+ */
 public class CheckedIntegerType implements Type<Integer> {
 
     @Override
@@ -15,6 +20,7 @@ public class CheckedIntegerType implements Type<Integer> {
         return arg1 + arg2;
     }
 
+    @Override
     public Integer subtract(final Integer arg1, final Integer arg2) throws OverflowException {
         if (arg1 >= 0 && arg2 < 0 && arg1 - Integer.MAX_VALUE > arg2
                 || arg1 <= 0 && arg2 > 0 && Integer.MIN_VALUE - arg1 > -arg2) {
@@ -68,6 +74,7 @@ public class CheckedIntegerType implements Type<Integer> {
         return (arg < 0) ? -arg : arg;
     }
 
+    @Override
     public Integer square(Integer arg) throws OverflowException {
         if (arg > 46340) {
             throw new OverflowException();
@@ -82,5 +89,4 @@ public class CheckedIntegerType implements Type<Integer> {
         }
         return arg1 % arg2;
     }
-
 }

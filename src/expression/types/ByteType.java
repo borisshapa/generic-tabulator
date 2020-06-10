@@ -4,6 +4,11 @@ import expression.exceptions.DivisionByZeroException;
 import expression.parser.Source;
 import expression.parser.SourceException;
 
+/**
+ * Byte type
+ *
+ * @author <a href="https://teleg.run/borisshapa">Boris Shaposhnikov</a>
+ */
 public class ByteType implements Type<Byte> {
     @Override
     public Byte add(Byte arg1, Byte arg2) {

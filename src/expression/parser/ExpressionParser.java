@@ -3,10 +3,21 @@ package expression.parser;
 import expression.types.Type;
 import expression.operations.*;
 
+/**
+ * Parser of mathematical expressions.
+ *
+ * @param <T> the type in which to evaluate the expression.
+ * @author <a href="https://teleg.run/borisshapa">Boris Shaposhnikov</a>
+ */
 public class ExpressionParser<T> implements Parser<T> {
     private Source source;
     private final Type<T> type;
 
+    /**
+     * Initializes the parser with the type in which to evaluate expressions.
+     *
+     * @param op expressions type
+     */
     public ExpressionParser(Type<T> op) {
         type = op;
     }

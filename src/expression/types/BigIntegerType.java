@@ -6,6 +6,11 @@ import expression.parser.SourceException;
 
 import java.math.BigInteger;
 
+/**
+ * {@link BigInteger} type
+ *
+ * @author <a href="https://teleg.run/borisshapa">Boris Shaposhnikov</a>
+ */
 public class BigIntegerType implements Type<BigInteger> {
 
     @Override
