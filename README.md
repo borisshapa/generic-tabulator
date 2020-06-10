@@ -1,4 +1,4 @@
-##GenericTabulator
+## GenericTabulator
 
 * Классы `Const`, `Variable`, `Add`, `Subtract`, `Multiply`, `Divide` вычисляют выражения с тремя переменными.
   Классы позволяют составлять выражения вида
