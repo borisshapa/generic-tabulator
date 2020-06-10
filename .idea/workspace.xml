@@ -2,31 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8661aeb6-62b3-4152-9870-0aba9d6fb084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParserGenerics/META-INF/ParserGenerics.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParserGenerics/expression/generic/GenericTabulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParserGenerics/expression/generic/GenericTabulator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParserGenerics/expression/parser/ExpressionParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParserGenerics/expression/parser/ExpressionParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParserGenerics/expression/parser/Source.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParserGenerics/expression/parser/Source.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/exceptions/DivisionByZeroException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/exceptions/DivisionByZeroException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/exceptions/EvaluatingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/exceptions/EvaluatingException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/exceptions/OverflowException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/exceptions/OverflowException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/generic/GenericTabulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/generic/GenericTabulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/operations/AbstractUnaryOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/operations/AbstractUnaryOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/operations/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/operations/Const.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/operations/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/operations/Variable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/parser/ExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/parser/ExpressionParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/parser/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/parser/Source.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/types/BigIntegerType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/types/BigIntegerType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expression/types/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/types/Type.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,10 +63,30 @@
       <updated>1591397280469</updated>
       <workItem from="1591397283921" duration="501000" />
       <workItem from="1591644471848" duration="39000" />
+      <workItem from="1591784534127" duration="1009000" />
+      <workItem from="1591797109556" duration="607000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1804" height="275" key="GridCell.Tab.0.bottom" timestamp="1591786901960">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1591786901960" />
+    <state width="1804" height="275" key="GridCell.Tab.0.center" timestamp="1591786901952">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="275" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1591786901952" />
+    <state width="1804" height="275" key="GridCell.Tab.0.left" timestamp="1591786901949">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="275" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1591786901949" />
+    <state width="1804" height="275" key="GridCell.Tab.0.right" timestamp="1591786901954">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="275" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1591786901954" />
   </component>
 </project>
