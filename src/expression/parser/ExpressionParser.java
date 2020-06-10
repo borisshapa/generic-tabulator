@@ -5,7 +5,7 @@ import expression.operations.*;
 
 public class ExpressionParser<T> implements Parser<T> {
     private Source source;
-    private Type<T> type;
+    private final Type<T> type;
 
     public ExpressionParser(Type<T> op) {
         type = op;
@@ -49,7 +49,7 @@ public class ExpressionParser<T> implements Parser<T> {
 
     private TripleExpression<T> parsePrimary() throws SourceException {
         skipSpaces();
-        if (Character.isDigit(source.getChar()) || test('-')) {
+        if (test('-') || Character.isDigit(source.getChar())) {
             return parseConst();
         } else if (testNext('(')) {
             TripleExpression<T> ans = parseAddSub();
@@ -89,7 +89,7 @@ public class ExpressionParser<T> implements Parser<T> {
         try {
             return new Const<>(type.parseNumber(sb.toString()));
         } catch (final NumberFormatException e) {
-            throw source.error("Invalid number '%s'", sb);
+            throw source.error("Invalid number '%s'", sb.toString());
         }
     }
 
@@ -116,7 +116,7 @@ public class ExpressionParser<T> implements Parser<T> {
         } else if (actual != Source.END) {
             throw source.error("Expected %s, found '%s' (%d)", errorMessage, actual, (int) actual);
         } else {
-            throw source.error("Expected %s, found EOF", errorMessage);
+            throw source.error("Expected %s, found end of file", errorMessage);
         }
     }
 

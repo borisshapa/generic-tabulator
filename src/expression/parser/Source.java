@@ -31,7 +31,7 @@ public abstract class Source {
         }
     }
 
-    public SourceException error(final String format, final Object... args) throws SourceException {
+    public SourceException error(final String format, final Object... args) {
         return new SourceException(line, posInLine, String.format("%d:%d: %s", line, posInLine, String.format(format, args)));
     }
 }

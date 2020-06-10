@@ -4,7 +4,7 @@ import expression.exceptions.EvaluatingException;
 import expression.types.Type;
 
 public abstract class AbstractUnaryOperator<T> implements TripleExpression<T>{
-    private TripleExpression<T> arg;
+    private final TripleExpression<T> arg;
     protected Type<T> type;
 
     public AbstractUnaryOperator(TripleExpression<T> arg, Type<T> type) {

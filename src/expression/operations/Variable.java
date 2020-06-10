@@ -1,7 +1,7 @@
 package expression.operations;
 
 public class Variable<T> implements TripleExpression<T> {
-    private String variable;
+    private final String variable;
 
     public Variable(String string) {
         variable = string;

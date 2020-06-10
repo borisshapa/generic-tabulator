@@ -60,6 +60,4 @@ public class BigIntegerType implements Type<BigInteger> {
         BigInteger div = arg1.divide(arg2);
         return arg1.subtract(div.multiply(arg2));
     }
-
-
 }

@@ -1,7 +1,7 @@
 package expression.operations;
 
 public class Const<T> implements TripleExpression<T> {
-    private T value;
+    private final T value;
 
     public Const(T x) {
         value = x;
